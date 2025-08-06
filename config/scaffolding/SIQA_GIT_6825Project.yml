@@ -92,7 +92,7 @@ services:
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
-- serviceName: project.siqa_git_6825.integrations:JMS_JNDI_SSL
+- serviceName: project.siqa_git_6825.integrations:JMSFlowTest
   packages:
   - name: SIQA_GIT_6825Project
     version: "1.0"
@@ -112,6 +112,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_git_6825.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SIQA_GIT_6825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: project.siqa_git_6825.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_GIT_6825Project
