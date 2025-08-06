@@ -56,6 +56,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_git_6825.integrations:Call_refData
+  packages:
+  - name: SIQA_GIT_6825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: project.siqa_git_6825.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_GIT_6825Project
@@ -84,6 +92,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_git_6825.referencedata:refData
+  packages:
+  - name: SIQA_GIT_6825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
